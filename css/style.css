@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+/* ===============Common css===================
+ */
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: .8;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+.btn{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 15px 45px;
+    background: #f26957;
+    border: 2px solid #f26957;
+    text-transform: uppercase;
+    
+    display: inline-block;
+}
+.btn:hover{
+    border: 2px solid #f26957;
+}
+/* ==============navbar=================== */
 .navbar{
     background-color: rgba(11, 10, 8, 0.55);
     padding: 50px 0;
@@ -5,6 +39,7 @@
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 99;
 }
 .nav_wrapper{
     display: flex;
@@ -38,4 +73,37 @@
 }
 .navbar-toggler:focus {
     box-shadow: none;
+}
+/* ==================Bannar secttion================ */
+.banner_content{
+    width: 680px;
+    margin: 0 auto;
+    text-align: center;
+}
+.carousel-item{
+    height: 100vh;
+}
+.carousel-item img{
+    /* height: 100%; */
+    object-fit: cover;
+}
+.carousel-caption{
+    bottom: 80px;
+}
+.banner_content h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.banner_content h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+    padding: 20px 0 30px;
+    /* margin: 0 auto; */
+    
 }
