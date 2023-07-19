@@ -179,3 +179,37 @@ ul,ol{
     color: #f26957;
     transition: all linear 0.2s;
 }
+
+/* ======================Services section====================== */
+#services{
+    padding: 130px;
+    background: #f6f6f6;
+}
+.services_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+}
+.service_item{
+    text-align: left;
+    background: #ffffff;
+    padding: 60px 40px;
+}
+.service_image{
+    height: 38px;
+    
+}
+.service_image img{
+    height: 100%;
+    object-fit: cover;
+}
+.service_item h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    padding: 26px 0 30px;
+}
