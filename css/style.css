@@ -213,3 +213,40 @@ ul,ol{
     text-align: left;
     padding: 26px 0 30px;
 }
+
+
+/* ==================== Counter section================ */
+#counter_section{
+    padding: 100px 0;
+    background: #333333;
+    text-align: center;
+    color: #ffffff;
+}
+.counter_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.counter_item h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+}
+.counter_item h2::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 1px;
+    background: #f26957;
+}
+.counter_item p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 19px;
+}
