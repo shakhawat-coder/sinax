@@ -591,7 +591,7 @@ input::placeholder{
     border: none;
     outline: none;
 }
-button{
+/* .footer_btn{
     height: 45px;
     width: 45px;
     background-color: #3f3f3f;
@@ -599,8 +599,8 @@ button{
     justify-content: center;
     align-items: center;
     border: 1px solid #3f3f3f;
-}
-button i{
+} */
+.footer_btn i{
     font-size: 12px;
     font-weight: 400;
     color: #b6b6b6;
