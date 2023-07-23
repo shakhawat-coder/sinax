@@ -483,6 +483,7 @@
     }
     .service_item {
         padding: 30px 20px;
+        margin: 0;
     }
     .service_item h4 {
         padding: 20px 0 20px;
@@ -506,6 +507,9 @@
     /* ================Team section================ */
     #team {
         padding: 60px 0;
+    }
+    .team_member {
+        padding: 0;
     }
     .team_member .overlay .overlay_content {
         padding-top: 100px;
@@ -553,6 +557,9 @@
     }
     .news_content p {
         margin-bottom: 10px;
+    }
+    .single_news {
+        margin: 0;
     }
     /* =================Footer section============== */
     .top_footer {
