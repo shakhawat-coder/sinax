@@ -396,19 +396,7 @@ ul,ol{
     color: #ffffff;
     padding: 0 10px 25px;
 }
-/* .overlay .overlay_content .social a{
-    font-size: 17px;
-    font-weight: 400;
-    color: #000000;
-    padding: 20px 22px;
-    background: #ffffff;
-    border-radius: 50%;
-    margin-left: 10px;
-}
-.overlay .overlay_content .social a:hover{
-    color: #ffffff;
-    background: #f26957;
-} */
+
 .member_image:hover .overlay{
     height: 100%;
     opacity: 1;
@@ -466,6 +454,7 @@ ul,ol{
     padding: 120px 0;
 }
 .brand_wrapper{
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
