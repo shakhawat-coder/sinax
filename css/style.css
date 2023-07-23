@@ -58,6 +58,10 @@ ul,ol{
     color: #878787;
     line-height: 26px;
 }
+.social{
+    column-gap: 10px;
+
+}
 
 .social a{
     display: flex;
@@ -70,7 +74,7 @@ ul,ol{
     color: #000000;
     background: #ffffff;
     border-radius: 50%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     transition: all linear 0.3s;
 }
 .social a:hover{
@@ -403,6 +407,7 @@ ul,ol{
     transition: 0.3s;
 }
 
+
 .team_member h3{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 22px;
@@ -452,6 +457,7 @@ ul,ol{
 /* ================Brand section=========== */
 #brand{
     padding: 120px 0;
+    margin: 0 auto;
 }
 .brand_wrapper{
     text-align: center;
